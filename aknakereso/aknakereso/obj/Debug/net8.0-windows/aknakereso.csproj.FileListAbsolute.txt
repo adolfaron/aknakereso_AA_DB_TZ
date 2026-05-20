@@ -1,0 +1,16 @@
+D:\AÁ\aknakereso\aknakereso\bin\Debug\net8.0-windows\aknakereso.exe
+D:\AÁ\aknakereso\aknakereso\bin\Debug\net8.0-windows\aknakereso.deps.json
+D:\AÁ\aknakereso\aknakereso\bin\Debug\net8.0-windows\aknakereso.runtimeconfig.json
+D:\AÁ\aknakereso\aknakereso\bin\Debug\net8.0-windows\aknakereso.dll
+D:\AÁ\aknakereso\aknakereso\bin\Debug\net8.0-windows\aknakereso.pdb
+D:\AÁ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.Form1.resources
+D:\AÁ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.csproj.GenerateResource.cache
+D:\AÁ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.GeneratedMSBuildEditorConfig.editorconfig
+D:\AÁ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.AssemblyInfoInputs.cache
+D:\AÁ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.AssemblyInfo.cs
+D:\AÁ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.csproj.CoreCompileInputs.cache
+D:\AÁ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.dll
+D:\AÁ\aknakereso\aknakereso\obj\Debug\net8.0-windows\refint\aknakereso.dll
+D:\AÁ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.pdb
+D:\AÁ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.genruntimeconfig.cache
+D:\AÁ\aknakereso\aknakereso\obj\Debug\net8.0-windows\ref\aknakereso.dll
