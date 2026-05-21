@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\adolfaron\\.nuget\\packages\\": {}
+    "C:\\Users\\dudasbencesandor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AÁ\\aknakereso\\aknakereso\\aknakereso.csproj",
+      "projectUniqueName": "C:\\Users\\dudasbencesandor\\Source\\Repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\aknakereso.csproj",
       "projectName": "aknakereso",
-      "projectPath": "D:\\AÁ\\aknakereso\\aknakereso\\aknakereso.csproj",
-      "packagesPath": "C:\\Users\\adolfaron\\.nuget\\packages\\",
-      "outputPath": "D:\\AÁ\\aknakereso\\aknakereso\\obj\\",
+      "projectPath": "C:\\Users\\dudasbencesandor\\Source\\Repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\aknakereso.csproj",
+      "packagesPath": "C:\\Users\\dudasbencesandor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dudasbencesandor\\Source\\Repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\adolfaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dudasbencesandor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

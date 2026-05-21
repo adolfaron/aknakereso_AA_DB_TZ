@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\A\u00C1\\aknakereso\\",
+  "WorkspaceRootPath": "C:\\Users\\dudasbencesandor\\source\\repos\\aknakereso_AA_DB_TZ\\aknakereso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|d:\\a\u00E1\\aknakereso\\aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|d:\\a\u00E1\\aknakereso\\aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|c:\\users\\dudasbencesandor\\source\\repos\\aknakereso_aa_db_tz\\aknakereso\\aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|d:\\a\u00E1\\aknakereso\\aknakereso\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|c:\\users\\dudasbencesandor\\source\\repos\\aknakereso_aa_db_tz\\aknakereso\\aknakereso\\aknakereso.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\aknakereso.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|c:\\users\\dudasbencesandor\\source\\repos\\aknakereso_aa_db_tz\\aknakereso\\aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|c:\\users\\dudasbencesandor\\source\\repos\\aknakereso_aa_db_tz\\aknakereso\\aknakereso\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -25,46 +29,58 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "aknakereso",
+              "DocumentMoniker": "C:\\Users\\dudasbencesandor\\Source\\Repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\aknakereso.csproj",
+              "RelativeDocumentMoniker": "aknakereso\\aknakereso.csproj",
+              "ToolTip": "C:\\Users\\dudasbencesandor\\Source\\Repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\aknakereso.csproj",
+              "RelativeToolTip": "aknakereso\\aknakereso.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-21T10:18:03.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Menu.cs",
-              "DocumentMoniker": "D:\\A\u00C1\\aknakereso\\aknakereso\\Menu.cs",
+              "DocumentMoniker": "C:\\Users\\dudasbencesandor\\source\\repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.cs",
               "RelativeDocumentMoniker": "aknakereso\\Menu.cs",
-              "ToolTip": "D:\\A\u00C1\\aknakereso\\aknakereso\\Menu.cs*",
-              "RelativeToolTip": "aknakereso\\Menu.cs*",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\dudasbencesandor\\source\\repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.cs",
+              "RelativeToolTip": "aknakereso\\Menu.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwFQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-21T09:57:39.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Menu.Designer.cs",
-              "DocumentMoniker": "D:\\A\u00C1\\aknakereso\\aknakereso\\Menu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\dudasbencesandor\\source\\repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.Designer.cs",
               "RelativeDocumentMoniker": "aknakereso\\Menu.Designer.cs",
-              "ToolTip": "D:\\A\u00C1\\aknakereso\\aknakereso\\Menu.Designer.cs*",
-              "RelativeToolTip": "aknakereso\\Menu.Designer.cs*",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAAEIAAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\dudasbencesandor\\source\\repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.Designer.cs",
+              "RelativeToolTip": "aknakereso\\Menu.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-21T09:56:49.578Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "D:\\A\u00C1\\aknakereso\\aknakereso\\Menu.cs",
+              "DocumentMoniker": "C:\\Users\\dudasbencesandor\\source\\repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.cs",
               "RelativeDocumentMoniker": "aknakereso\\Menu.cs",
-              "ToolTip": "D:\\A\u00C1\\aknakereso\\aknakereso\\Menu.cs [Design]*",
-              "RelativeToolTip": "aknakereso\\Menu.cs [Design]*",
+              "ToolTip": "C:\\Users\\dudasbencesandor\\source\\repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.cs [Design]",
+              "RelativeToolTip": "aknakereso\\Menu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-21T09:54:28.261Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
