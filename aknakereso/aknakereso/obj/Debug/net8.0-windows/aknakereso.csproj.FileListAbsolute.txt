@@ -33,3 +33,21 @@ C:\Users\dudasbencesandor\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso
 C:\Users\dudasbencesandor\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.pdb
 C:\Users\dudasbencesandor\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.genruntimeconfig.cache
 C:\Users\dudasbencesandor\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\ref\aknakereso.dll
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\bin\Debug\net8.0-windows\aknakereso.exe
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\bin\Debug\net8.0-windows\aknakereso.deps.json
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\bin\Debug\net8.0-windows\aknakereso.runtimeconfig.json
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\bin\Debug\net8.0-windows\aknakereso.dll
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\bin\Debug\net8.0-windows\aknakereso.pdb
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.Jatekter.resources
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.Menu.resources
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.csproj.GenerateResource.cache
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.AssemblyInfoInputs.cache
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.AssemblyInfo.cs
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.csproj.CoreCompileInputs.cache
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.sourcelink.json
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.dll
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\refint\aknakereso.dll
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.pdb
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.genruntimeconfig.cache
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\ref\aknakereso.dll

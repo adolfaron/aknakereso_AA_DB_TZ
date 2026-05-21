@@ -49,7 +49,7 @@ namespace aknakereso
                         }
                     default:
                         {
-                            nehezseg = 0;
+                            nehezseg = 2;
                             break;
                         }
 
@@ -74,12 +74,13 @@ namespace aknakereso
                         }
                     default:
                         {
-                            meret = 0;
+                            meret = 16;
                             break;
                         }
 
                 }
                 Jatekter jatekter = new Jatekter(nehezseg, meret);
+                jatekter.ShowDialog();
 
             };
             startBTN.Text = "Start";
