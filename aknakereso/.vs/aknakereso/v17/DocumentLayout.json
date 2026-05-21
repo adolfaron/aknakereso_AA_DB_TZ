@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\A\u00C1\\aknakereso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|d:\\a\u00E1\\aknakereso\\aknakereso\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|d:\\a\u00E1\\aknakereso\\aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|d:\\a\u00E1\\aknakereso\\aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|d:\\a\u00E1\\aknakereso\\aknakereso\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,14 +30,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\A\u00C1\\aknakereso\\aknakereso\\Form1.cs",
-              "RelativeDocumentMoniker": "aknakereso\\Form1.cs",
-              "ToolTip": "D:\\A\u00C1\\aknakereso\\aknakereso\\Form1.cs [Design]",
-              "RelativeToolTip": "aknakereso\\Form1.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\A\u00C1\\aknakereso\\aknakereso\\Menu.cs",
+              "RelativeDocumentMoniker": "aknakereso\\Menu.cs",
+              "ToolTip": "D:\\A\u00C1\\aknakereso\\aknakereso\\Menu.cs",
+              "RelativeToolTip": "aknakereso\\Menu.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T08:20:22.801Z",
+              "WhenOpened": "2026-05-21T09:57:39.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.Designer.cs",
+              "DocumentMoniker": "D:\\A\u00C1\\aknakereso\\aknakereso\\Menu.Designer.cs",
+              "RelativeDocumentMoniker": "aknakereso\\Menu.Designer.cs",
+              "ToolTip": "D:\\A\u00C1\\aknakereso\\aknakereso\\Menu.Designer.cs",
+              "RelativeToolTip": "aknakereso\\Menu.Designer.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswEoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T09:56:49.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "D:\\A\u00C1\\aknakereso\\aknakereso\\Menu.cs",
+              "RelativeDocumentMoniker": "aknakereso\\Menu.cs",
+              "ToolTip": "D:\\A\u00C1\\aknakereso\\aknakereso\\Menu.cs [Design]",
+              "RelativeToolTip": "aknakereso\\Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T09:54:28.261Z",
               "EditorCaption": " [Design]"
             }
           ]
