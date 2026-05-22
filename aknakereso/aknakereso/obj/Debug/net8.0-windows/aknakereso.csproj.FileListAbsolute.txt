@@ -51,3 +51,21 @@ D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso
 D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.pdb
 D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.genruntimeconfig.cache
 D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\aknakereso\aknakereso\aknakereso\obj\Debug\net8.0-windows\ref\aknakereso.dll
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\bin\Debug\net8.0-windows\aknakereso.exe
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\bin\Debug\net8.0-windows\aknakereso.deps.json
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\bin\Debug\net8.0-windows\aknakereso.runtimeconfig.json
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\bin\Debug\net8.0-windows\aknakereso.dll
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\bin\Debug\net8.0-windows\aknakereso.pdb
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.Jatekter.resources
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.Menu.resources
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.csproj.GenerateResource.cache
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.AssemblyInfoInputs.cache
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.AssemblyInfo.cs
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.csproj.CoreCompileInputs.cache
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.sourcelink.json
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.dll
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\refint\aknakereso.dll
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.pdb
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\aknakereso.genruntimeconfig.cache
+C:\Users\adolfaron\Source\Repos\aknakereso_AA_DB_TZ\aknakereso\aknakereso\obj\Debug\net8.0-windows\ref\aknakereso.dll

@@ -44,12 +44,12 @@ namespace aknakereso
                         }
                     case 2:
                         {
-                            nehezseg = 20;
+                            nehezseg = 40;
                             break;
                         }
                     default:
                         {
-                            nehezseg = 2;
+                            nehezseg = 20;
                             break;
                         }
 

@@ -16,16 +16,21 @@ namespace aknakereso
         int MaxSuruseg = 20;//% (min 3) alap 20
         PictureBox[,] helyek;
         List<string>[,] racs;
-        public Jatekter(int nehezseg, int meret)
+        int meret;
+        bool felfedve = false;
+        bool letrehozva = false;
+        Random rnd = new Random();
+        public Jatekter(int ujnehezseg, int ujmeret)
         {
             InitializeComponent();
-            meret = meret;
+            meret = ujmeret;
+            MaxSuruseg = ujnehezseg;
             helyek = new PictureBox[meret, meret];
             racs = new List<string>[meret, meret];
 
             Text = "Aknakereső";
             this.ClientSize = new Size(meret * cellaMeret, meret * cellaMeret);
-            var tabla = new TableLayoutPanel//táblázat létrehozása
+            TableLayoutPanel tabla = new TableLayoutPanel//táblázat létrehozása
             {
                 RowCount = meret,
                 ColumnCount = meret,
@@ -43,7 +48,7 @@ namespace aknakereso
                 for (int oszlop = 0; oszlop < meret; oszlop++)
                 {
                     vilagos = !vilagos;
-                    var cellaTart = new PictureBox
+                    PictureBox cellaTart = new PictureBox
                     {
                         Size = new Size(cellaMeret, cellaMeret),
                         Margin = new Padding(0),
@@ -63,7 +68,47 @@ namespace aknakereso
         }
         private void Kattintas(object sender, MouseEventArgs e)
         {
+            (int sor, int oszlop) koordinata = (0, 0);
+            PictureBox aktkep = (PictureBox)sender;
 
+            for (int sor = 0; sor < meret; sor++)
+                for (int oszlop = 0; oszlop < meret; oszlop++)
+                    if (helyek[sor, oszlop] == aktkep)
+                        koordinata = (sor, oszlop);
+            if (!felfedve)
+            {
+                if (e.Button == MouseButtons.Left)//bal kattintás, felfedés
+                {
+                    if (racs[koordinata.sor, koordinata.oszlop][0] == "ures" || racs[koordinata.sor, koordinata.oszlop][0] == "szam")
+                    {
+                        aknaLetrehoz(koordinata);
+                    }
+                }
+            }
+        }
+
+        private void aknaLetrehoz((int sor, int oszlop) koordinata)
+        {
+            if (!letrehozva)//aknák elhelyezése
+            {
+                letrehozva = true;
+                int minVel = (int)meret / 2;//kb 2 soronként  1
+                int maxVel = (int)(Math.Pow(meret, 2) / 2);
+                maxVel = (int)(Math.Pow(meret, 2) * (MaxSuruseg / 100.0));
+                int aknaszama = rnd.Next(minVel, maxVel);
+                for (int i = 0; i < aknaszama; i++)
+                {
+                    int Vsor, Voszlop;
+                    do//addig ad új véletlent amíg a kattintottra jön ki egy akna
+                    {
+                        Vsor = rnd.Next(0, meret);
+                        Voszlop = rnd.Next(0, meret);
+                    } while ((Vsor == koordinata.sor && Voszlop == koordinata.oszlop));
+                    //} while (aknaKorulotte(Vsor, Voszlop, koordinata.sor, koordinata.oszlop));
+                    racs[Vsor, Voszlop][1] = "akna";
+                }
+            }
+            MessageBox.Show(racs[koordinata.sor, koordinata.oszlop][1] + "");
         }
     }
 }
