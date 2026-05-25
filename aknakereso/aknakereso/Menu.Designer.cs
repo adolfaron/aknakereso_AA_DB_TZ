@@ -28,18 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
+            panel1 = new Panel();
             SuspendLayout();
+            // 
+            // panel1
+            // 
+            panel1.Location = new Point(101, 138);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(158, 170);
+            panel1.TabIndex = 0;
             // 
             // Menu
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(551, 354);
+            ClientSize = new Size(630, 472);
+            Controls.Add(panel1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Menu";
             Text = "Menu";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private Panel panel1;
     }
 }
