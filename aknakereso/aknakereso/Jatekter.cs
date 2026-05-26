@@ -76,7 +76,7 @@ namespace aknakereso
                     if (helyek[sor, oszlop] == aktkep)
                     {
                         koordinata = (sor, oszlop);
-                        MessageBox.Show(racs[sor, oszlop][0] +"\n"+ racs[sor, oszlop][1]);
+                        //MessageBox.Show(racs[sor, oszlop][0] +"\n"+ racs[sor, oszlop][1]);
                     }
                         
             
@@ -87,9 +87,81 @@ namespace aknakereso
                     if (racs[koordinata.sor, koordinata.oszlop][0] == "ures" || racs[koordinata.sor, koordinata.oszlop][0] == "szam")
                     {
                         aknaLetrehoz(koordinata);
+                        racs[koordinata.sor, koordinata.oszlop][0] = "felfedett";
+                        //felfed();
+                        //return;
+                        if (racs[koordinata.sor, koordinata.oszlop][1] == "akna")
+                        {
+                            felfed(true);
+                            MessageBox.Show("Aknára léptél! Játék vége!");
+                        }
+                        else//ha üres a mező vagy szám
+                        {
+                            aktkep.Image = Image.FromFile("img/" + (aktkep.Tag == "vilagos" ? "vilagos" : "sotet") + racs[koordinata.sor, koordinata.oszlop][1] + ".png");
+                            //aktkep.Image = aktkep.Tag == "vilagos" ? Image.FromFile("kepek/vilagosures.png") : Image.FromFile("kepek/sotetures.png"); 
+                            //ellenorizve.Clear();
+                            //ellSzam = 0;
+                            //ellenoriz(koordinata.sor, koordinata.oszlop);
+                        }
+                    }
+                    
+                }
+                else  if (letrehozva)//jobb kattintás, zászlózás
+                {
+                    if (racs[koordinata.sor, koordinata.oszlop][0] == "ures" || racs[koordinata.sor, koordinata.oszlop][0] == "szam")
+                    {
+                        racs[koordinata.sor, koordinata.oszlop][0] = "zaszlo";
+                        aktkep.Image = aktkep.Tag == "vilagos" ? Image.FromFile("img/vilagosZaszlo.png") : Image.FromFile("img/sotetZaszlo.png");
+                    }
+                    else if (racs[koordinata.sor, koordinata.oszlop][0] == "zaszlo")
+                    {
+                        racs[koordinata.sor, koordinata.oszlop][0] = "ures";
+                        aktkep.Image = aktkep.Tag == "vilagos" ? Image.FromFile("img/zold.png") : Image.FromFile("img/sotetZold.png");
+
+
                     }
                 }
             }
+        }
+
+        private void felfed(bool folrobbant)
+        {
+            int XSzama = 0;
+            int aknaszam = 0;
+            int zaszloSzam = 0;
+            if (!felfedve)
+            {
+                for (int sor = 0; sor < meret; sor++)
+                    for (int oszlop = 0; oszlop < meret; oszlop++)
+                    {
+                        PictureBox aktMezo = helyek[sor, oszlop];
+                        if (racs[sor, oszlop][1] == "akna")
+                        {
+                            aknaszam++;
+                            if (racs[sor, oszlop][0] != "zaszlo")
+                            {
+                                aktMezo.Image = Image.FromFile("img/akna" + rnd.Next(1, 9) + ".png");
+                            }
+                            else if (racs[sor, oszlop][0] == "zaszlo")
+                            {
+                                zaszloSzam++;
+                            }
+
+                        }
+                        if (racs[sor, oszlop][0] == "zaszlo")
+                        {
+                            aktMezo.Image = aktMezo.Tag == "vilagos" ? Image.FromFile("img/vilagosX.png") : Image.FromFile("img/sotetX.png");
+                            XSzama++;
+                        }
+
+                        //összes szám megmutatása:
+                        //aktMezo.Image = Image.FromFile("img/" + (aktMezo.Tag == "vilagos" ? "vilagos" : "sotet") + racs[sor, oszlop][1] + ".png");
+
+                    }
+                felfedve = true;
+                if (!folrobbant)
+                    MessageBox.Show("Játék vége!" + (XSzama == 0 && zaszloSzam == aknaszam ? "\nGratulálok megtaláltad az összes aknát és csak azokat jelölted meg!" : "") + (XSzama != 0 && zaszloSzam == aknaszam ? "\nMegtaláltad az összes aknát de nem csak azokat jelölted meg!" : ""));
+            } 
         }
 
         private void aknaLetrehoz((int sor, int oszlop) koordinata)
@@ -112,7 +184,7 @@ namespace aknakereso
                     } while (aknaKorulotte(Vsor, Voszlop, koordinata.sor, koordinata.oszlop));
                     racs[Vsor, Voszlop][1] = "akna";
                 }
-                MessageBox.Show(racs[koordinata.sor, koordinata.oszlop][1] + " létrehozva");
+                //MessageBox.Show(racs[koordinata.sor, koordinata.oszlop][1] + " létrehozva");
 
                 for (int sor = 0; sor < meret; sor++)
                     for (int oszlop = 0; oszlop < meret; oszlop++)
