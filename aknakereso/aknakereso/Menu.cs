@@ -24,7 +24,7 @@ namespace aknakereso
         private void menuElemek()
         {
             this.Text = "Aknakereső";
-            this.BackColor = Color.FromArgb(35, 35, 35);
+            this.BackColor = Color.FromArgb(162, 209, 73);
             this.Size = new Size(400, 300);
             this.StartPosition = FormStartPosition.CenterScreen;
 
@@ -33,9 +33,9 @@ namespace aknakereso
             layout.RowCount = 3;
             layout.ColumnCount = 1;
             layout.Padding = new Padding(20);
-            layout.RowStyles.Add(new RowStyle(SizeType.Percent, 30));
-            layout.RowStyles.Add(new RowStyle(SizeType.Percent, 40));
-            layout.RowStyles.Add(new RowStyle(SizeType.Percent, 30));
+            layout.RowStyles.Add(new RowStyle(SizeType.Percent, 10));
+            layout.RowStyles.Add(new RowStyle(SizeType.Percent, 10));
+            layout.RowStyles.Add(new RowStyle(SizeType.Percent, 10));
             Controls.Add(layout);
 
             Label cim = new Label();
@@ -61,7 +61,7 @@ namespace aknakereso
             nehezsegComb.SelectedIndex = 0;
             nehezsegComb.Font = new Font("Segoe UI", 12);
             nehezsegComb.Size = new Size(200, 35);
-            nehezsegComb.Location = new Point((ClientSize.Width - nehezsegComb.Width) / 2, ((ClientSize.Height - nehezsegComb.Height) / 2) - 100);
+            nehezsegComb.Dock = DockStyle.Top;
             nehezsegComb.DropDownStyle = ComboBoxStyle.DropDownList;
 
             beallitasPanel.Controls.Add(nehezsegComb);
@@ -76,8 +76,7 @@ namespace aknakereso
 
             meretComb.SelectedIndex = 0;
             meretComb.Font = new Font("Segoe UI", 12);
-            meretComb.Size = new Size(200, 35);
-            meretComb.Location = new Point((ClientSize.Width-meretComb.Width) /2 ,(ClientSize.Height - meretComb.Height) / 2);
+            meretComb.Dock = DockStyle.Bottom;
             meretComb.DropDownStyle = ComboBoxStyle.DropDownList;
 
             beallitasPanel.Controls.Add(meretComb);
@@ -87,7 +86,7 @@ namespace aknakereso
             startBTN.Dock = DockStyle.Fill;
             startBTN.Height = 50;
 
-            startBTN.BackColor = Color.FromArgb(0, 120, 215);
+            startBTN.BackColor = Color.FromArgb(180, 220, 100);
             startBTN.ForeColor = Color.White;
             startBTN.FlatStyle = FlatStyle.Flat;
             startBTN.FlatAppearance.BorderSize = 0;
