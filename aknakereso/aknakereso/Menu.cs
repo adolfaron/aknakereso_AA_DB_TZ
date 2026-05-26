@@ -104,7 +104,7 @@ namespace aknakereso
                 switch (nehezsegComb.SelectedIndex)
                 {
                     case 0:
-                        nehezseg = 10;
+                        nehezseg = 15;
                         break;
 
                     case 1:

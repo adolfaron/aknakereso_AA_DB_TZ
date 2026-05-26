@@ -34,13 +34,13 @@ namespace aknakereso
             {
                 RowCount = meret,
                 ColumnCount = meret,
-                Dock = DockStyle.Top,//szülőelemhez igazítás
+                Dock = DockStyle.Fill,//szülőelemhez igazítás
                 Height = meret * cellaMeret
             };
             for (int i = 0; i < meret; i++)// sorok és oszlopok hozzáadása, méretezése
             {
-                tabla.RowStyles.Add(new RowStyle());
-                tabla.ColumnStyles.Add(new ColumnStyle());
+                tabla.RowStyles.Add(new RowStyle(SizeType.Percent, 100/meret));
+                tabla.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100 / meret));
             }
             bool vilagos = true;
             for (int sor = 0; sor < meret; sor++)//elemek létrehozása és eljelyezése
@@ -52,7 +52,8 @@ namespace aknakereso
                     {
                         Size = new Size(cellaMeret, cellaMeret),
                         Margin = new Padding(0),
-                        Tag = vilagos ? "vilagos" : "sotet"
+                        Tag = vilagos ? "vilagos" : "sotet",
+                        Dock = DockStyle.Fill,//szülőelemhez igazítás
                     };
                     cellaTart.MouseDown += Kattintas;
                     cellaTart.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -88,7 +89,7 @@ namespace aknakereso
                     {
                         aknaLetrehoz(koordinata);
                         racs[koordinata.sor, koordinata.oszlop][0] = "felfedett";
-                        //felfed();
+                        //felfed(true);
                         //return;
                         if (racs[koordinata.sor, koordinata.oszlop][1] == "akna")
                         {
@@ -121,6 +122,7 @@ namespace aknakereso
 
                     }
                 }
+                //teleEllenoriz();
             }
         }
 
@@ -148,10 +150,13 @@ namespace aknakereso
                             }
 
                         }
-                        if (racs[sor, oszlop][0] == "zaszlo")
+                        else
                         {
-                            aktMezo.Image = aktMezo.Tag == "vilagos" ? Image.FromFile("img/vilagosX.png") : Image.FromFile("img/sotetX.png");
-                            XSzama++;
+                            if (racs[sor, oszlop][0] == "zaszlo")
+                            {
+                                aktMezo.Image = aktMezo.Tag == "vilagos" ? Image.FromFile("img/vilagosX.png") : Image.FromFile("img/sotetX.png");
+                                XSzama++;
+                            }
                         }
 
                         //összes szám megmutatása:
