@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.DataFormats;
 
 namespace aknakereso
 {
@@ -130,8 +131,10 @@ namespace aknakereso
                         break;
                 }
 
+                this.Hide();
                 Jatekter jatekter = new Jatekter(nehezseg, meret);
                 jatekter.ShowDialog();
+
             };
         }
 
