@@ -74,7 +74,12 @@ namespace aknakereso
             for (int sor = 0; sor < meret; sor++)
                 for (int oszlop = 0; oszlop < meret; oszlop++)
                     if (helyek[sor, oszlop] == aktkep)
+                    {
                         koordinata = (sor, oszlop);
+                        MessageBox.Show(racs[sor, oszlop][0] +"\n"+ racs[sor, oszlop][1]);
+                    }
+                        
+            
             if (!felfedve)
             {
                 if (e.Button == MouseButtons.Left)//bal kattintás, felfedés
@@ -103,12 +108,71 @@ namespace aknakereso
                     {
                         Vsor = rnd.Next(0, meret);
                         Voszlop = rnd.Next(0, meret);
-                    } while ((Vsor == koordinata.sor && Voszlop == koordinata.oszlop));
-                    //} while (aknaKorulotte(Vsor, Voszlop, koordinata.sor, koordinata.oszlop));
+                    //} while ((Vsor == koordinata.sor && Voszlop == koordinata.oszlop));
+                    } while (aknaKorulotte(Vsor, Voszlop, koordinata.sor, koordinata.oszlop));
                     racs[Vsor, Voszlop][1] = "akna";
                 }
+                MessageBox.Show(racs[koordinata.sor, koordinata.oszlop][1] + " létrehozva");
+
+                for (int sor = 0; sor < meret; sor++)
+                    for (int oszlop = 0; oszlop < meret; oszlop++)
+                    {
+                        if (racs[sor, oszlop][1] != "akna")
+                        {
+                            int aknaSzam = 0;
+                            for (int i = -1; i <= 1; i++)
+                            {
+                                for (int j = -1; j <= 1; j++)
+                                {
+                                    if (i == 0 && j == 0) continue; // ne a saját cellát nézzük
+                                    int s = sor + i;
+                                    int o = oszlop + j;
+                                    if (s >= 0 && s < meret && o >= 0 && o < meret)
+                                    {
+                                        if (racs[s, o][1] == "akna") aknaSzam++;
+                                    }
+                                }
+                            }
+
+                            if (aknaSzam == 0)
+                            {
+                                racs[sor, oszlop][1] = "ures";
+                            }
+                            else
+                            {
+                                racs[sor, oszlop][0] = "szam";
+                                racs[sor, oszlop][1] = aknaSzam.ToString();
+                            }
+                        }
+                    }
+
             }
-            MessageBox.Show(racs[koordinata.sor, koordinata.oszlop][1] + "");
+        }
+
+        bool aknaKorulotte(int Vsor, int Voszlop, int sor, int oszlop)
+        {
+            //return racs[Vsor, Voszlop][1] == "akna" || (Vsor == sor && Voszlop == oszlop); ;
+            for (int i = -1; i <= 1; i++)
+            {
+                for (int j = -1; j <= 1; j++)
+                {
+                    int s = sor + i;
+                    int o = oszlop + j;
+                    if (s >= 0 && s < meret && o >= 0 && o < meret)
+                    {
+                        if (s == Vsor && o == Voszlop)
+                        {
+                            //Console.WriteLine("akna a közelben");
+                            return true;
+
+                        }
+                        ;
+                    }
+                }
+            }
+            //aknaSzama++;
+            //Console.WriteLine("nincs akna"+ aknaSzama);
+            return false; //racs[Vsor, Voszlop][1] == "akna" || (Vsor == sor && Voszlop == oszlop);
         }
     }
 }

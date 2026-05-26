@@ -62,21 +62,23 @@ namespace aknakereso
             nehezsegComb.Font = new Font("Segoe UI", 12);
             nehezsegComb.Size = new Size(200, 35);
             nehezsegComb.Location = new Point((ClientSize.Width - nehezsegComb.Width) / 2, ((ClientSize.Height - nehezsegComb.Height) / 2) - 100);
+            nehezsegComb.DropDownStyle = ComboBoxStyle.DropDownList;
 
             beallitasPanel.Controls.Add(nehezsegComb);
 
             meretComb = new ComboBox();
             meretComb.Items.AddRange(new object[]
             {
+        "8 x 8",
         "16 x 16",
         "32 x 32",
-        "64 x 64"
             });
 
             meretComb.SelectedIndex = 0;
             meretComb.Font = new Font("Segoe UI", 12);
             meretComb.Size = new Size(200, 35);
             meretComb.Location = new Point((ClientSize.Width-meretComb.Width) /2 ,(ClientSize.Height - meretComb.Height) / 2);
+            meretComb.DropDownStyle = ComboBoxStyle.DropDownList;
 
             beallitasPanel.Controls.Add(meretComb);
 
@@ -117,15 +119,15 @@ namespace aknakereso
                 switch (meretComb.SelectedIndex)
                 {
                     case 0:
-                        meret = 16;
+                        meret = 8;
                         break;
 
                     case 1:
-                        meret = 32;
+                        meret = 16;
                         break;
 
                     case 2:
-                        meret = 64;
+                        meret = 32;
                         break;
                 }
 
