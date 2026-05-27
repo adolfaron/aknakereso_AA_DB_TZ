@@ -20,6 +20,7 @@ namespace aknakereso
         bool felfedve = false;
         bool letrehozva = false;
         Random rnd = new Random();
+        List<string> ellenorizve = new List<string>();
         public Jatekter(int ujnehezseg, int ujmeret)
         {
             InitializeComponent();
@@ -101,9 +102,9 @@ namespace aknakereso
                         {
                             aktkep.Image = Image.FromFile("img/" + (aktkep.Tag == "vilagos" ? "vilagos" : "sotet") + racs[koordinata.sor, koordinata.oszlop][1] + ".png");
                             //aktkep.Image = aktkep.Tag == "vilagos" ? Image.FromFile("kepek/vilagosures.png") : Image.FromFile("kepek/sotetures.png"); 
-                            //ellenorizve.Clear();
+                            ellenorizve.Clear();
                             //ellSzam = 0;
-                            //ellenoriz(koordinata.sor, koordinata.oszlop);
+                            ellenoriz(koordinata.sor, koordinata.oszlop);
                         }
                     }
                     
@@ -251,6 +252,46 @@ namespace aknakereso
             //aknaSzama++;
             //Console.WriteLine("nincs akna"+ aknaSzama);
             return false; //racs[Vsor, Voszlop][1] == "akna" || (Vsor == sor && Voszlop == oszlop);
+        }
+
+        void ellenoriz(int sor, int oszlop)
+        {
+            //ellSzam++;
+            //Console.WriteLine("ellenőrzés száma: " + ellSzam);
+            //if (ellenorizve.Contains((sor + "" + oszlop)))
+            //return;
+
+            ellenorizve.Add((sor + "" + oszlop));
+            if (racs[sor, oszlop][1] == "ures")
+            {
+                //MessageBox.Show("üres");
+                //racs[koordinata.sor, koordinata.oszlop][1];
+                for (int i = -1; i <= 1; i++)
+                {
+                    for (int j = -1; j <= 1; j++)
+                    {
+                        if (i == 0 && j == 0) continue; // ne a saját cellát nézzük
+                        int s = sor + i;
+                        int o = oszlop + j;
+                        if (s >= 0 && s < meret && o >= 0 && o < meret)
+                        {
+                            if (racs[s, o][1] == "ures")
+                            {
+                                helyek[s, o].Image = Image.FromFile("img/" + (helyek[s, o].Tag == "vilagos" ? "vilagos" : "sotet") + racs[s, o][1] + ".png");
+                                racs[s, o][0] = "felfedett";
+                                if (!ellenorizve.Contains((s + "" + o)))
+                                    ellenoriz(s, o);
+                                //aktkep.Image = Image.FromFile("kepek/" + (aktkep.Tag == "vilagos" ? "vilagos" : "sotet") + racs[koordinata.sor, koordinata.oszlop][1] + ".png");
+                            }
+                            else if (int.TryParse(racs[s, o][1], out int szam))//szám-e
+                            {
+                                racs[s, o][0] = "felfedett";
+                                helyek[s, o].Image = Image.FromFile("img/" + (helyek[s, o].Tag == "vilagos" ? "vilagos" : "sotet") + racs[s, o][1] + ".png");
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
