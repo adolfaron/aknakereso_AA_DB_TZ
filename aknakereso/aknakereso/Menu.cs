@@ -131,9 +131,11 @@ namespace aknakereso
                         break;
                 }
 
-                this.Hide();
+                
                 Jatekter jatekter = new Jatekter(nehezseg, meret);
+                this.Hide();
                 jatekter.ShowDialog();
+                this.Show();
 
             };
         }

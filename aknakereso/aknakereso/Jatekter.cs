@@ -29,7 +29,8 @@ namespace aknakereso
             racs = new List<string>[meret, meret];
 
             Text = "Aknakereső";
-            this.ClientSize = new Size(meret * cellaMeret, meret * cellaMeret);
+            //this.ClientSize = new Size(meret * cellaMeret, meret * cellaMeret);
+            this.ClientSize = new Size(400, 400);
             TableLayoutPanel tabla = new TableLayoutPanel//táblázat létrehozása
             {
                 RowCount = meret,
