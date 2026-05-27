@@ -34,15 +34,16 @@ namespace aknakereso
             this.ClientSize = new Size(400, 400);
             TableLayoutPanel tabla = new TableLayoutPanel//táblázat létrehozása
             {
-                RowCount = meret,
-                ColumnCount = meret,
+                RowCount = meret+1,
+                ColumnCount = meret+1,
                 Dock = DockStyle.Fill,//szülőelemhez igazítás
-                Height = meret * cellaMeret
+                Height = meret * cellaMeret,
             };
-            for (int i = 0; i < meret; i++)// sorok és oszlopok hozzáadása, méretezése
+            for (int i = 0; i < meret+1; i++)// sorok és oszlopok hozzáadása, méretezése
             {
-                tabla.RowStyles.Add(new RowStyle(SizeType.Percent, 100/meret));
-                tabla.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100 / meret));
+                tabla.RowStyles.Add(new RowStyle(SizeType.Percent, 100 / meret+1));
+
+                tabla.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100 / meret+1));
             }
             bool vilagos = true;
             for (int sor = 0; sor < meret; sor++)//elemek létrehozása és eljelyezése
@@ -124,7 +125,7 @@ namespace aknakereso
 
                     }
                 }
-                //teleEllenoriz();
+                teleEllenoriz();
             }
         }
 
@@ -261,7 +262,7 @@ namespace aknakereso
             //if (ellenorizve.Contains((sor + "" + oszlop)))
             //return;
 
-            ellenorizve.Add((sor + "" + oszlop));
+            ellenorizve.Add((sor + " " + oszlop));
             if (racs[sor, oszlop][1] == "ures")
             {
                 //MessageBox.Show("üres");
@@ -279,7 +280,7 @@ namespace aknakereso
                             {
                                 helyek[s, o].Image = Image.FromFile("img/" + (helyek[s, o].Tag == "vilagos" ? "vilagos" : "sotet") + racs[s, o][1] + ".png");
                                 racs[s, o][0] = "felfedett";
-                                if (!ellenorizve.Contains((s + "" + o)))
+                                if (!ellenorizve.Contains((s + " " + o)))
                                     ellenoriz(s, o);
                                 //aktkep.Image = Image.FromFile("kepek/" + (aktkep.Tag == "vilagos" ? "vilagos" : "sotet") + racs[koordinata.sor, koordinata.oszlop][1] + ".png");
                             }
@@ -293,5 +294,28 @@ namespace aknakereso
                 }
             }
         }
+
+        void teleEllenoriz()
+        {
+            int felfedett = 0;
+            for (int sor = 0; sor < meret; sor++)
+                for (int oszlop = 0; oszlop < meret; oszlop++)
+                {
+                    if (racs[sor, oszlop][0] == "felfedett" || racs[sor, oszlop][0] == "zaszlo")
+                    {
+                        felfedett++;
+                    }
+                }
+            if (felfedett == meret * meret)
+            {
+
+                //MessageBox.Show("Kész!");
+                felfed(false);
+            } /*else
+            {
+                 Console.WriteLine("felfedett: " + felfedett);
+            }*/
+        }
+
     }
 }
