@@ -16,10 +16,22 @@ namespace aknakereso
         private Button startBTN;
         private ComboBox nehezsegComb;
         private ComboBox meretComb;
+        private Label cim;
         public Menu()
         {
             InitializeComponent();
             menuElemek();
+            ClientSizeChanged += (s, e) =>
+            {
+                startBTN.Font = new Font("Segoe UI", (ClientSize.Width / 20), FontStyle.Bold);
+                startBTN.Height = ClientSize.Height / 5;
+                nehezsegComb.Font = new Font("Segoe UI", (ClientSize.Width / 25), FontStyle.Regular);
+                nehezsegComb.Height = ClientSize.Height / 10;
+                meretComb.Font = new Font("Segoe UI", (ClientSize.Width / 25), FontStyle.Regular);
+                meretComb.Height = ClientSize.Height / 10;
+                /*cim.Font = new Font("Segoe UI", (ClientSize.Width / 5), FontStyle.Bold);
+            */
+            };
         }
 
         private void menuElemek()
@@ -34,10 +46,10 @@ namespace aknakereso
             layout.RowCount = 3;
             layout.ColumnCount = 1;
             layout.Padding = new Padding(20);
-            layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 75));
-            layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 75));
-            layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 75));
-            layout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50));
+            layout.RowStyles.Add(new RowStyle(SizeType.Percent, 75));
+            layout.RowStyles.Add(new RowStyle(SizeType.Percent, 75));
+            layout.RowStyles.Add(new RowStyle(SizeType.Percent, 75));
+            layout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50));
             Controls.Add(layout);
 
             Label cim = new Label();
@@ -94,6 +106,7 @@ namespace aknakereso
             startBTN.FlatAppearance.BorderSize = 0;
 
             startBTN.Font = new Font("Segoe UI", 14, FontStyle.Bold);
+
 
             layout.Controls.Add(startBTN, 0, 2);
 
