@@ -30,20 +30,19 @@ namespace aknakereso
             racs = new List<string>[meret, meret];
 
             Text = "Aknakereső";
-            //this.ClientSize = new Size(meret * cellaMeret, meret * cellaMeret);
-            this.ClientSize = new Size(400, 400);
+            this.ClientSize = new Size(meret * cellaMeret, meret * cellaMeret);
+            //this.ClientSize = new Size(400, 400);
             TableLayoutPanel tabla = new TableLayoutPanel//táblázat létrehozása
             {
                 RowCount = meret+1,
                 ColumnCount = meret+1,
                 Dock = DockStyle.Fill,//szülőelemhez igazítás
-                Height = meret * cellaMeret,
+                //Height = meret * cellaMeret,
             };
-            for (int i = 0; i < meret+1; i++)// sorok és oszlopok hozzáadása, méretezése
+            for (int i = 0; i < meret; i++)
             {
-                tabla.RowStyles.Add(new RowStyle(SizeType.Percent, 100 / meret+1));
-
-                tabla.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100 / meret+1));
+                tabla.RowStyles.Add(new RowStyle(SizeType.Percent, 100f / meret+1));
+                tabla.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100f / meret+1));
             }
             bool vilagos = true;
             for (int sor = 0; sor < meret; sor++)//elemek létrehozása és eljelyezése
@@ -57,6 +56,17 @@ namespace aknakereso
                         Margin = new Padding(0),
                         Tag = vilagos ? "vilagos" : "sotet",
                         Dock = DockStyle.Fill,//szülőelemhez igazítás
+                        BorderBottom = false,
+                        BorderLeft = false,
+                        BorderRight = false,
+                        BorderTop = false,
+                        BorderBottomLeft = false,
+                        BorderBottomRight = false,
+                        BorderTopLeft = false,
+                        BorderTopRight = false,
+                        BorderWidth = 5,
+                        
+                        BorderColor = Color.FromArgb(135, 175, 58),
                     };
                     cellaTart.MouseDown += Kattintas;
                     cellaTart.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -106,6 +116,73 @@ namespace aknakereso
                             ellenorizve.Clear();
                             //ellSzam = 0;
                             ellenoriz(koordinata.sor, koordinata.oszlop);
+                            for (int s = 0; s < meret; s++)
+                            {
+                                for (int o = 0; o < meret; o++)
+                                {
+                                    if (int.TryParse(racs[s, o][1], out _)
+                                        && racs[s, o][0] == "felfedett")
+                                    {
+                                        helyek[s, o].BorderTop = false;
+                                        helyek[s, o].BorderBottom = false;
+                                        helyek[s, o].BorderLeft = false;
+                                        helyek[s, o].BorderRight = false;
+
+                                        helyek[s, o].BorderTopLeft = false;
+                                        helyek[s, o].BorderTopRight = false;
+                                        helyek[s, o].BorderBottomLeft = false;
+                                        helyek[s, o].BorderBottomRight = false;
+
+                                        if (s - 1 >= 0 &&
+                                            racs[s - 1, o][0] != "felfedett")
+                                            helyek[s, o].BorderTop = true;
+
+                                        if (s + 1 < meret &&
+                                            racs[s + 1, o][0] != "felfedett")
+                                            helyek[s, o].BorderBottom = true;
+
+                                        if (o - 1 >= 0 &&
+                                            racs[s, o - 1][0] != "felfedett")
+                                            helyek[s, o].BorderLeft = true;
+
+                                        if (o + 1 < meret &&
+                                            racs[s, o + 1][0] != "felfedett")
+                                            helyek[s, o].BorderRight = true;
+
+                                        // Bal felső
+                                        if (s - 1 >= 0 &&
+                                            o - 1 >= 0 &&
+                                            racs[s - 1, o - 1][0] != "felfedett")
+                                        {
+                                            helyek[s, o].BorderTopLeft = true;
+                                        }
+
+                                        // Jobb felső
+                                        if (s - 1 >= 0 &&
+                                            o + 1 < meret &&
+                                            racs[s - 1, o + 1][0] != "felfedett")
+                                        {
+                                            helyek[s, o].BorderTopRight = true;
+                                        }
+
+                                        // Bal alsó
+                                        if (s + 1 < meret &&
+                                            o - 1 >= 0 &&
+                                            racs[s + 1, o - 1][0] != "felfedett")
+                                        {
+                                            helyek[s, o].BorderBottomLeft = true;
+                                        }
+
+                                        // Jobb alsó
+                                        if (s + 1 < meret &&
+                                            o + 1 < meret &&
+                                            racs[s + 1, o + 1][0] != "felfedett")
+                                        {
+                                            helyek[s, o].BorderBottomRight = true;
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                     
