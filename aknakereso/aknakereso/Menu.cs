@@ -34,10 +34,10 @@ namespace aknakereso
             layout.RowCount = 3;
             layout.ColumnCount = 1;
             layout.Padding = new Padding(20);
-            layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 100));
-            layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 100));
-            layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 100));
-            layout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
+            layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 75));
+            layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 75));
+            layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 75));
+            layout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 50));
             Controls.Add(layout);
 
             Label cim = new Label();

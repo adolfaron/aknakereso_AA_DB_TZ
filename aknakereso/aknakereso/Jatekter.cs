@@ -284,10 +284,11 @@ namespace aknakereso
                                     ellenoriz(s, o);
                                 //aktkep.Image = Image.FromFile("kepek/" + (aktkep.Tag == "vilagos" ? "vilagos" : "sotet") + racs[koordinata.sor, koordinata.oszlop][1] + ".png");
                             }
-                            else if (int.TryParse(racs[s, o][1], out int szam))//szám-e
+                            else if (int.TryParse(racs[s, o][1], out int szam))//szám-e 
                             {
                                 racs[s, o][0] = "felfedett";
                                 helyek[s, o].Image = Image.FromFile("img/" + (helyek[s, o].Tag == "vilagos" ? "vilagos" : "sotet") + racs[s, o][1] + ".png");
+                                
                             }
                         }
                     }
