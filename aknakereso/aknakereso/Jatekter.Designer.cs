@@ -39,11 +39,14 @@ namespace aknakereso
             ClientSize = new Size(581, 518);
             Margin = new Padding(4, 5, 4, 5);
             Name = "Jatekter";
-            Text = "Jatekter";
+            Text = "Játéktér";
             Resize += meretValtoz;
             ResumeLayout(false);
         }
-
+        private void meretValtoz(object sender, EventArgs e)
+        {
+            meretez();
+        }
         #endregion
     }
     public class PictureBox : System.Windows.Forms.PictureBox

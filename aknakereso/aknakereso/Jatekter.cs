@@ -399,7 +399,7 @@ namespace aknakereso
 
         void meretez()
         {
-            for (int sor = 0; sor < meret; sor++)//elemek létrehozása és eljelyezése
+            for (int sor = 0; sor < meret; sor++)
             {
                 for (int oszlop = 0; oszlop < meret; oszlop++)
                 {
@@ -414,11 +414,6 @@ namespace aknakereso
                     //helyek[sor, oszlop] = ;
                 }
             }
-        }
-
-        private void meretValtoz(object sender, EventArgs e)
-        {
-            meretez();
         }
     }
 }
