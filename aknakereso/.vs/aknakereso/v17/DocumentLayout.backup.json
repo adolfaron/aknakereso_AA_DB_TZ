@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_AA_DB_TZ\\aknakereso\\",
+  "WorkspaceRootPath": "D:\\OneDrive - Bajai SZC T\u00FCrr Istv\u00E1n Technikum\\\u00D3r\u00E1k\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|c:\\users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_aa_db_tz\\aknakereso\\aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|c:\\users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_aa_db_tz\\aknakereso\\aknakereso\\jatekter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|d:\\onedrive - bajai szc t\u00FCrr istv\u00E1n technikum\\\u00F3r\u00E1k\\ikt\\aknakereso_aa_db_tz\\aknakereso\\aknakereso\\jatekter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\jatekter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|C:\\Users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|D:\\OneDrive - Bajai SZC T\u00FCrr Istv\u00E1n Technikum\\\u00D3r\u00E1k\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\jatekter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\jatekter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|c:\\users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_aa_db_tz\\aknakereso\\aknakereso\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|c:\\users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_aa_db_tz\\aknakereso\\aknakereso\\jatekter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|d:\\onedrive - bajai szc t\u00FCrr istv\u00E1n technikum\\\u00F3r\u00E1k\\ikt\\aknakereso_aa_db_tz\\aknakereso\\aknakereso\\jatekter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\jatekter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|C:\\Users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\jatekter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\jatekter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|d:\\onedrive - bajai szc t\u00FCrr istv\u00E1n technikum\\\u00F3r\u00E1k\\ikt\\aknakereso_aa_db_tz\\aknakereso\\aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|d:\\onedrive - bajai szc t\u00FCrr istv\u00E1n technikum\\\u00F3r\u00E1k\\ikt\\aknakereso_aa_db_tz\\aknakereso\\aknakereso\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|D:\\OneDrive - Bajai SZC T\u00FCrr Istv\u00E1n Technikum\\\u00D3r\u00E1k\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4548D4D8-DB00-493A-B61D-6A4277DC7A91}|aknakereso\\aknakereso.csproj|solutionrelative:aknakereso\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,52 +45,26 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Jatekter.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Jatekter.Designer.cs",
-              "RelativeDocumentMoniker": "aknakereso\\Jatekter.Designer.cs",
-              "ToolTip": "C:\\Users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Jatekter.Designer.cs",
-              "RelativeToolTip": "aknakereso\\Jatekter.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T09:07:11.199Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Menu.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.Designer.cs",
-              "RelativeDocumentMoniker": "aknakereso\\Menu.Designer.cs",
-              "ToolTip": "C:\\Users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.Designer.cs",
-              "RelativeToolTip": "aknakereso\\Menu.Designer.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T09:02:58.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Jatekter.cs",
-              "DocumentMoniker": "C:\\Users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Jatekter.cs",
-              "RelativeDocumentMoniker": "aknakereso\\Jatekter.cs",
-              "ToolTip": "C:\\Users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Jatekter.cs",
-              "RelativeToolTip": "aknakereso\\Jatekter.cs",
-              "ViewState": "AgIAAA4BAAAAAAAAAAAmwCIBAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "aknakereso",
-              "WhenOpened": "2026-05-26T09:07:20.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.cs",
+              "DocumentMoniker": "D:\\OneDrive - Bajai SZC T\u00FCrr Istv\u00E1n Technikum\\\u00D3r\u00E1k\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.cs",
               "RelativeDocumentMoniker": "aknakereso\\Menu.cs",
-              "ToolTip": "C:\\Users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.cs",
+              "ToolTip": "D:\\OneDrive - Bajai SZC T\u00FCrr Istv\u00E1n Technikum\\\u00D3r\u00E1k\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.cs",
               "RelativeToolTip": "aknakereso\\Menu.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB0AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "OverriddenGroupName": "aknakereso",
               "WhenOpened": "2026-05-21T09:57:39.377Z",
@@ -98,23 +72,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Jatekter.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Jatekter.cs",
-              "RelativeDocumentMoniker": "aknakereso\\Jatekter.cs",
-              "ToolTip": "C:\\Users\\adolfaron\\source\\repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Jatekter.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\adolfaron\\source\\repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Jatekter.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "Menu.Designer.cs",
+              "DocumentMoniker": "D:\\OneDrive - Bajai SZC T\u00FCrr Istv\u00E1n Technikum\\\u00D3r\u00E1k\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.Designer.cs",
+              "RelativeDocumentMoniker": "aknakereso\\Menu.Designer.cs",
+              "ToolTip": "D:\\OneDrive - Bajai SZC T\u00FCrr Istv\u00E1n Technikum\\\u00D3r\u00E1k\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.Designer.cs",
+              "RelativeToolTip": "aknakereso\\Menu.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T09:07:13.898Z"
+              "WhenOpened": "2026-05-26T09:02:58.975Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Jatekter.Designer.cs",
+              "DocumentMoniker": "D:\\OneDrive - Bajai SZC T\u00FCrr Istv\u00E1n Technikum\\\u00D3r\u00E1k\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Jatekter.Designer.cs",
+              "RelativeDocumentMoniker": "aknakereso\\Jatekter.Designer.cs",
+              "ToolTip": "D:\\OneDrive - Bajai SZC T\u00FCrr Istv\u00E1n Technikum\\\u00D3r\u00E1k\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Jatekter.Designer.cs",
+              "RelativeToolTip": "aknakereso\\Jatekter.Designer.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T09:07:11.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Jatekter.cs",
+              "DocumentMoniker": "D:\\OneDrive - Bajai SZC T\u00FCrr Istv\u00E1n Technikum\\\u00D3r\u00E1k\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Jatekter.cs",
+              "RelativeDocumentMoniker": "aknakereso\\Jatekter.cs",
+              "ToolTip": "D:\\OneDrive - Bajai SZC T\u00FCrr Istv\u00E1n Technikum\\\u00D3r\u00E1k\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Jatekter.cs",
+              "RelativeToolTip": "aknakereso\\Jatekter.cs",
+              "ViewState": "AgIAAJMBAAAAAAAAAADgv5wBAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "aknakereso",
+              "WhenOpened": "2026-05-26T09:07:20.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Jatekter.cs [Design]",
+              "DocumentMoniker": "D:\\OneDrive - Bajai SZC T\u00FCrr Istv\u00E1n Technikum\\\u00D3r\u00E1k\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Jatekter.cs",
+              "RelativeDocumentMoniker": "aknakereso\\Jatekter.cs",
+              "ToolTip": "D:\\OneDrive - Bajai SZC T\u00FCrr Istv\u00E1n Technikum\\\u00D3r\u00E1k\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Jatekter.cs [Design]",
+              "RelativeToolTip": "aknakereso\\Jatekter.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T09:07:13.898Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dudasbencesandor\\source\\repos\\adolfaron\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.cs",
+              "DocumentMoniker": "D:\\OneDrive - Bajai SZC T\u00FCrr Istv\u00E1n Technikum\\\u00D3r\u00E1k\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.cs",
               "RelativeDocumentMoniker": "aknakereso\\Menu.cs",
-              "ToolTip": "C:\\Users\\bence\\source\\repos\\adolfaron\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\bence\\source\\repos\\adolfaron\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.cs [Design]",
+              "ToolTip": "D:\\OneDrive - Bajai SZC T\u00FCrr Istv\u00E1n Technikum\\\u00D3r\u00E1k\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\Menu.cs [Design]",
+              "RelativeToolTip": "aknakereso\\Menu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-21T09:54:28.261Z"
             }

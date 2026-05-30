@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace aknakereso
 {
@@ -34,15 +35,17 @@ namespace aknakereso
             //this.ClientSize = new Size(400, 400);
             TableLayoutPanel tabla = new TableLayoutPanel//táblázat létrehozása
             {
-                RowCount = meret+1,
-                ColumnCount = meret+1,
+                RowCount = meret + 1,
+                ColumnCount = meret + 1,
                 Dock = DockStyle.Fill,//szülőelemhez igazítás
                 //Height = meret * cellaMeret,
             };
             for (int i = 0; i < meret; i++)
             {
-                tabla.RowStyles.Add(new RowStyle(SizeType.Percent, 100f / meret+1));
-                tabla.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100f / meret+1));
+                /*tabla.RowStyles.Add(new RowStyle(SizeType.Percent, 100f / meret + 1));
+                tabla.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100f / meret + 1));*/
+                tabla.RowStyles.Add(new RowStyle());
+                tabla.ColumnStyles.Add(new ColumnStyle());
             }
             bool vilagos = true;
             for (int sor = 0; sor < meret; sor++)//elemek létrehozása és eljelyezése
@@ -52,10 +55,9 @@ namespace aknakereso
                     vilagos = !vilagos;
                     PictureBox cellaTart = new PictureBox
                     {
-                        Size = new Size(cellaMeret, cellaMeret),
                         Margin = new Padding(0),
+                        Size = new Size(cellaMeret, cellaMeret),
                         Tag = vilagos ? "vilagos" : "sotet",
-                        Dock = DockStyle.Fill,//szülőelemhez igazítás
                         BorderBottom = false,
                         BorderLeft = false,
                         BorderRight = false,
@@ -64,8 +66,7 @@ namespace aknakereso
                         BorderBottomRight = false,
                         BorderTopLeft = false,
                         BorderTopRight = false,
-                        BorderWidth = 5,
-                        
+
                         BorderColor = Color.FromArgb(135, 175, 58),
                     };
                     cellaTart.MouseDown += Kattintas;
@@ -78,6 +79,7 @@ namespace aknakereso
                 }
                 vilagos = meret % 2 == 0 ? !vilagos : vilagos;
             }
+            //meretez();
             Controls.Add(tabla);
         }
         private void Kattintas(object sender, MouseEventArgs e)
@@ -92,8 +94,8 @@ namespace aknakereso
                         koordinata = (sor, oszlop);
                         //MessageBox.Show(racs[sor, oszlop][0] +"\n"+ racs[sor, oszlop][1]);
                     }
-                        
-            
+
+
             if (!felfedve)
             {
                 if (e.Button == MouseButtons.Left)//bal kattintás, felfedés
@@ -185,9 +187,9 @@ namespace aknakereso
                             }
                         }
                     }
-                    
+
                 }
-                else  if (letrehozva)//jobb kattintás, zászlózás
+                else if (letrehozva)//jobb kattintás, zászlózás
                 {
                     if (racs[koordinata.sor, koordinata.oszlop][0] == "ures" || racs[koordinata.sor, koordinata.oszlop][0] == "szam")
                     {
@@ -246,7 +248,7 @@ namespace aknakereso
                 felfedve = true;
                 if (!folrobbant)
                     MessageBox.Show("Játék vége!" + (XSzama == 0 && zaszloSzam == aknaszam ? "\nGratulálok megtaláltad az összes aknát és csak azokat jelölted meg!" : "") + (XSzama != 0 && zaszloSzam == aknaszam ? "\nMegtaláltad az összes aknát de nem csak azokat jelölted meg!" : ""));
-            } 
+            }
         }
 
         private void aknaLetrehoz((int sor, int oszlop) koordinata)
@@ -265,7 +267,7 @@ namespace aknakereso
                     {
                         Vsor = rnd.Next(0, meret);
                         Voszlop = rnd.Next(0, meret);
-                    //} while ((Vsor == koordinata.sor && Voszlop == koordinata.oszlop));
+                        //} while ((Vsor == koordinata.sor && Voszlop == koordinata.oszlop));
                     } while (aknaKorulotte(Vsor, Voszlop, koordinata.sor, koordinata.oszlop));
                     racs[Vsor, Voszlop][1] = "akna";
                 }
@@ -365,7 +367,7 @@ namespace aknakereso
                             {
                                 racs[s, o][0] = "felfedett";
                                 helyek[s, o].Image = Image.FromFile("img/" + (helyek[s, o].Tag == "vilagos" ? "vilagos" : "sotet") + racs[s, o][1] + ".png");
-                                
+
                             }
                         }
                     }
@@ -395,5 +397,28 @@ namespace aknakereso
             }*/
         }
 
+        void meretez()
+        {
+            for (int sor = 0; sor < meret; sor++)//elemek létrehozása és eljelyezése
+            {
+                for (int oszlop = 0; oszlop < meret; oszlop++)
+                {
+                    PictureBox aktualis = helyek[sor, oszlop] as PictureBox;
+                    if (aktualis == null)
+                    {
+                        return;
+                    }
+                    aktualis.Size = new Size(this.ClientSize.Width / meret, this.ClientSize.Width / meret);
+                    aktualis.BorderWidth = this.Width / (meret * 10);
+                    this.ClientSize = new Size(this.ClientSize.Width, this.ClientSize.Width);
+                    //helyek[sor, oszlop] = ;
+                }
+            }
+        }
+
+        private void meretValtoz(object sender, EventArgs e)
+        {
+            meretez();
+        }
     }
 }

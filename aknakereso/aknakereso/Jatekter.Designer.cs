@@ -34,11 +34,13 @@ namespace aknakereso
             // 
             // Jatekter
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(407, 311);
+            ClientSize = new Size(581, 518);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Jatekter";
             Text = "Jatekter";
+            Resize += meretValtoz;
             ResumeLayout(false);
         }
 
