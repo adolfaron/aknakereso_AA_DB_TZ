@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("aknakereso")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9440c5231ffe08a24d21db366f47c0f1a46b5841")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bb8d5f51ec28b75d1c29396e8585bc210fb0590")]
 [assembly: System.Reflection.AssemblyProductAttribute("aknakereso")]
 [assembly: System.Reflection.AssemblyTitleAttribute("aknakereso")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

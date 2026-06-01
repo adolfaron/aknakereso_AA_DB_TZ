@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive - Bajai SZC Türr István Technikum\\Órák\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\aknakereso.csproj": {}
+    "C:\\Users\\dudasbencesandor\\Source\\Repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\aknakereso.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive - Bajai SZC Türr István Technikum\\Órák\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\aknakereso.csproj": {
+    "C:\\Users\\dudasbencesandor\\Source\\Repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\aknakereso.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive - Bajai SZC Türr István Technikum\\Órák\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\aknakereso.csproj",
+        "projectUniqueName": "C:\\Users\\dudasbencesandor\\Source\\Repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\aknakereso.csproj",
         "projectName": "aknakereso",
-        "projectPath": "D:\\OneDrive - Bajai SZC Türr István Technikum\\Órák\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\aknakereso.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive - Bajai SZC Türr István Technikum\\Órák\\IKT\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\obj\\",
+        "projectPath": "C:\\Users\\dudasbencesandor\\Source\\Repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\aknakereso.csproj",
+        "packagesPath": "C:\\Users\\dudasbencesandor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dudasbencesandor\\Source\\Repos\\aknakereso_AA_DB_TZ\\aknakereso\\aknakereso\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dudasbencesandor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,8 +40,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -64,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

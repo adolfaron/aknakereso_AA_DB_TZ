@@ -17,10 +17,14 @@ namespace aknakereso
         private ComboBox nehezsegComb;
         private ComboBox meretComb;
         private Label cim;
+        private double kepArany;
+        private bool ujrameretezes;
         public Menu()
         {
             InitializeComponent();
             menuElemek();
+            MinimumSize = new Size(384, 261);
+            MaximumSize = new Size(646, 439);
             ClientSizeChanged += (s, e) =>
             {
                 startBTN.Font = new Font("Segoe UI", (ClientSize.Width / 20), FontStyle.Bold);
@@ -29,8 +33,22 @@ namespace aknakereso
                 nehezsegComb.Height = ClientSize.Height / 10;
                 meretComb.Font = new Font("Segoe UI", (ClientSize.Width / 25), FontStyle.Regular);
                 meretComb.Height = ClientSize.Height / 10;
-                /*cim.Font = new Font("Segoe UI", (ClientSize.Width / 5), FontStyle.Bold);
-            */
+
+            };
+            kepArany = (double)ClientSize.Height / ClientSize.Width;
+
+            Resize += (s, e) =>
+            {
+                if (ujrameretezes)
+                    return;
+
+                ujrameretezes = true;
+
+                ClientSize = new Size(
+                    ClientSize.Width,
+                    (int)(ClientSize.Width * kepArany));
+
+                ujrameretezes = false;
             };
         }
 
